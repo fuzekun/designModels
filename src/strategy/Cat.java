@@ -2,6 +2,10 @@ package strategy;
 
 public class Cat {
     private int height, weight;
+    Cat(int height, int weight){
+        this.height = height;
+        this.weight = weight;
+    }
 
     public void setWeight(int weight) {
         this.weight = weight;
@@ -17,5 +21,10 @@ public class Cat {
 
     public int getHeight() {
         return height;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
